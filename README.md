@@ -49,3 +49,6 @@ modbus_slave_init(&g_slave, 1u, &g_map, &g_mb_port.port, 9600u);
 | `port/include/modbus_port.h` | — |
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
+ ## Testing
+  Test with my [Python Modbus Simulator](https://github.com/rtvk007/python-modbus-simulator-suite)
