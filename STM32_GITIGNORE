@@ -1,0 +1,75 @@
+# STM32 / Embedded C Project .gitignore
+
+# STM32CubeIDE / Eclipse
+.metadata/
+.settings/
+.project
+.cproject
+Debug/
+Release/
+
+# Build outputs
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+*.d
+
+# Keil MDK
+*.uvguix*
+*.uvopt
+DebugConfig/
+RTE/
+Listings/
+Objects/
+
+# IAR Embedded Workbench
+Debug/
+Release/
+settings/
+*.dep
+*.ewt
+*.dni
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.old
+*~
+
+# Compiled libraries
+*.a
+*.lib
+
+# Log files
+*.log
+
+# Flash tool files
+*.jlink
+*.cfg
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation build files (if using Doxygen)
+html/
+latex/
+
+# Keep these important files
+!*.ioc
+!Makefile
+!*.ld
+!*.s

@@ -1,0 +1,5 @@
+*.o
+*.a
+*.exe
+selftest
+.DS_Store
